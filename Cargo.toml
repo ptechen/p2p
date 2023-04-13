@@ -1,0 +1,23 @@
+[workspace]
+members = ["relay_server", "relay_client", "behaviour", "codec"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+codec = { path = "codec" }
+behaviour = { path = "behaviour" }
+libp2p = "0.51.2"
+tokio = "1.27.0"
+async-trait = "0.1.68"
+anyhow = "1.0.70"
+tracing = "0.1.37"
+futures = "0.3.28"
+serde_json = "1.0.95"
+clap = "4.2.1"
+env_logger = "0.10.0"
+void = "1.0.2"
+futures-util = "0.3.28"
+async-std = "1.12.0"
+der = "0.7.1"

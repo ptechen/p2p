@@ -1,0 +1,1 @@
+cargo run --bin relay_server -- --secret-key-seed 1 --port 8080
